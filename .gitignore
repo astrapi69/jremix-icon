@@ -99,4 +99,3 @@ gradle-app.setting
 ##############################################################
 hs_err_pid*
 /.attach_pid*
-/lombok.config
