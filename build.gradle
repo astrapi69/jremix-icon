@@ -14,7 +14,6 @@ apply plugin: "java"
 apply plugin: "java-library"
 apply plugin: "maven-publish"
 apply plugin: "signing"
-apply plugin: "com.github.hierynomus.license"
 
 group = "$groupPackage"
 version = "$projectVersion"
@@ -132,43 +131,6 @@ jar {
                 "Build-OS"              : "${System.properties['os.name']} ${System.properties['os.arch']} ${System.properties['os.version']}")
     }
 }
-
-license {
-    ext.year="$projectInceptionYear"
-    ext.owner="$projectLeaderName"
-    header rootProject.file("src/main/resources/LICENSE.txt")
-    excludes(["**/README",
-              "**/README.md",
-              "**/LICENSE",
-              "**/NOTICE",
-              "**/*.xml",
-              "**/*.xsl",
-              "**/*.xsd",
-              "**/*.dtd",
-              "**/*.html",
-              "**/*.jsp",
-              "**/*.jpa",
-              "**/*.sql",
-              "**/*.properties",
-              "**/*.bat",
-              "**/*.gradle",
-              "**/*.MF",
-              "**/*.txt",
-              "**/*.vm",
-              "**/*.log",
-              "**/*.map",
-              "**/*.js.map",
-              "**/*.tmpl",
-              "**/*.js.tmpl",
-              "**/*.editorconfig",
-              "src/test/resources/**",
-              "src/main/resources/**",
-              "out/**",
-              "build/**"])
-}
-// workhack for license issue #76
-gradle.startParameter.excludedTaskNames += "licenseMain"
-gradle.startParameter.excludedTaskNames += "licenseTest"
 
 dependencies {
     testImplementation("org.apache.xmlgraphics:batik-transcoder:$batikVersion")
