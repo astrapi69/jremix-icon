@@ -1,21 +1,19 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="java-library-template [publishMavenJavaPublicationToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle">
+  <configuration default="false" name="LoadIconTest.testloadIcons" type="GradleRunConfiguration" factoryName="Gradle">
     <ExternalSystemSettings>
       <option name="executionName" />
       <option name="externalProjectPath" value="$PROJECT_DIR$" />
       <option name="externalSystemIdString" value="GRADLE" />
-      <option name="scriptParameters" value="" />
+      <option name="scriptParameters" value=":test --tests &quot;io.github.astrapi69.LoadIconTest.testloadIcons&quot;" />
       <option name="taskDescriptions">
         <list />
       </option>
       <option name="taskNames">
-        <list>
-          <option value="publishMavenJavaPublicationToMavenLocal" />
-        </list>
+        <list />
       </option>
-      <option name="vmOptions" value="" />
+      <option name="vmOptions" />
     </ExternalSystemSettings>
-    <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+    <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
     <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
     <DebugAllEnabled>false</DebugAllEnabled>
     <method v="2" />
