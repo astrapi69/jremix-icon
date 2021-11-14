@@ -97,20 +97,21 @@ dependencies {
 
 # Load icons
 
-This project provides only the icons. For load the icons in your application here an example:
+This project provides only the icons. For load the icons in your application you can import the 
+dependency 'io.github.astrapi69:icon-img-extensions' as shown in the following example:
 
 ```
     String imagePath = "io/github/astrapi69/remixicon/Document/folder-3-fill.svg";
-		String formatName = "png";
-		ImageIcon applicationAdd = ImageIconFactory.newImageIconFromSVG(
-			imagePath,
-			formatName, 16, 16);
-		JButton btnApplicationAdd = IconButtonFactory.newIconButton(applicationAdd, "New application");
-		assertNotNull(btnApplicationAdd);
+    ImageIcon applicationAdd = ImageIconFactory.newImageIconFromSVG(imagePath, 16, 16);
+    JButton btnApplicationAdd = IconButtonFactory.newIconButton(applicationAdd, "New application");
+    assertNotNull(btnApplicationAdd);
 ```
-For do this you need the batik dependencies. See the unit test class LoadIconTest and the build.gradle for more information.
 
-The classes ImageIconFactory and IconButtonFactory are helper classes that are defined in the test
+For do this you need the batik dependencies. See the unit test class LoadIconTest and the build.gradle 
+for more information.
+
+The classes ImageIconFactory and IconButtonFactory are helper classes that are defined in the project
+[]()
 resources
 
 # Donations

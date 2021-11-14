@@ -4,6 +4,14 @@
 Version 1.1-SNAPSHOT
 -------------
 
+ADDED:
+
+- new test dependency io.github.astrapi69:icon-img-extensions for unit tests 
+
+CHANGED:
+
+- removed temporary classes for loading icons and images that are now imported with the new test dependency
+
 Version 1
 -------------
 
