@@ -18,8 +18,8 @@ class LoadIconTest
 	public void testloadIcons() throws TranscoderException
 	{
 		String imagePath = "io/github/astrapi69/remixicon/Document/folder-3-fill.svg";
-		ImageIcon applicationAdd = ImageIconFactory.newImageIconFromSVG(imagePath, (float)16,
-			(float)16);
+		ImageIcon applicationAdd = ImageIconFactory.newImageIconFromSVG(imagePath, 16.f,
+			16.f);
 		JButton btnApplicationAdd = IconButtonFactory.newIconButton(applicationAdd,
 			"New application");
 		assertNotNull(btnApplicationAdd);
