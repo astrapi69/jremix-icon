@@ -50,7 +50,7 @@ Than you can add the dependency to your dependencies:
 	<properties>
 			...
 		<!-- jremix-icon version -->
-		<jremix-icon.version>1</jremix-icon.version>
+		<jremix-icon.version>1.1</jremix-icon.version>
 			...
 	</properties>
 			...
@@ -72,7 +72,7 @@ your project `build.gradle` if you want to import the core functionality of jrem
 
 define version in file gradle.properties
 ```
-jremixIconVersion=1
+jremixIconVersion=1.1
 ```
 
 or in build.gradle ext area
@@ -80,7 +80,7 @@ or in build.gradle ext area
 ```
 ext {
 			...
-    jremixIconVersion = "1"
+    jremixIconVersion = "1.1"
 			...
 }
 ```
