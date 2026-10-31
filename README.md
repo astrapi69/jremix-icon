@@ -2,9 +2,8 @@
 
 <div style="text-align: center">
 
-[![Build Status](https://travis-ci.com/astrapi69/jremix-icon.svg?branch=master)](https://travis-ci.com/github/astrapi69/jremix-icon)
 [![Open Issues](https://img.shields.io/github/issues/astrapi69/jremix-icon.svg?style=flat)](https://github.com/astrapi69/jremix-icon/issues)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.astrapi69/jremix-icon/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.astrapi69/jremix-icon)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.astrapi69/jremix-icon)](https://central.sonatype.com/artifact/io.github.astrapi69/jremix-icon)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](http://opensource.org/licenses/MIT)
 [![Donate](https://img.shields.io/badge/donate-❤-ff2244.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GVBTWLRAZ7HB8)
 
@@ -39,8 +38,7 @@ The source code comes under the liberal MIT License, making jremix-icon great fo
 
 ## Maven dependency
 
-Maven dependency is now on sonatype.
-Check out [sonatype repository](https://oss.sonatype.org/index.html#nexus-search;gav~io.github.astrapi69~jremix-icon~~~) for latest snapshots and releases.
+The library is on Maven Central. Check out [Maven Central](https://central.sonatype.com/artifact/io.github.astrapi69/jremix-icon) for the latest release.
 
 Add the following maven dependency to your project `pom.xml` if you want to import the core
 functionality of jremix-icon:
